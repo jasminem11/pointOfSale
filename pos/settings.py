@@ -123,3 +123,7 @@ STATIC_ROOT=BASE_DIR /'static'
 STATICFILES_DIRS=[
     'pos/static',
 ]
+
+#media files configuration
+MEDIA_URL='/media/'
+MEDIA_ROOT=BASE_DIR/'media'
