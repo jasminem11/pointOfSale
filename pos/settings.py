@@ -70,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pos.wsgi.application'
 
-
+AUTH_USER_MODEL="Account.Account"
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
