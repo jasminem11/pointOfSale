@@ -10,3 +10,9 @@ def inventory(request):
     }
 
     return render(request, 'templates/home.html', context)
+
+#declare funct search 
+#filter over product = keyword
+#product_count= sproduct .count()
+#def search(request):
+ #   product_count = product.count() 

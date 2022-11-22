@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'inventory',
+    'account',
+    
 ]
 
 MIDDLEWARE = [
@@ -70,7 +72,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pos.wsgi.application'
 
-AUTH_USER_MODEL="Account.Account"
+AUTH_USER_MODEL="account.Account"
+
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
